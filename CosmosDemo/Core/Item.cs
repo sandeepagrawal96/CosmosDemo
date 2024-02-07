@@ -27,5 +27,13 @@ namespace CosmosDemo.Core
         public string Type { get; set; }
         [JsonProperty(PropertyName = "role")]
         public string Role { get; set; }
+        [JsonProperty(PropertyName = "work_item_id")]
+        public string Work_item_id { get; set; }
+        [JsonProperty(PropertyName = "start_date")]
+        public DateTime Start_Date { get; set; }
+        [JsonProperty(PropertyName = "end_date")]
+        public DateTime? End_date { get; set; }
+        [JsonProperty(PropertyName = "total_hours")]
+        public decimal Total_hours { get; set; }
     }
 }
